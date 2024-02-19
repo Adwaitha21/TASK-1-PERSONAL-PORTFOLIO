@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(photo-1615715757401-f30e7b27b912.avif);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+.project{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(watercolor-background_87374-57.avif);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+.contact{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(hand-painted-watercolor-pastel-sky-background_23-2148902771.avif);
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+nav {
+    
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+h1{
+    font-size: 40pt;
+    color: blue;
+    font-family: "Segoe Script";
+}
+h2{
+    font-size: 35pt;
+    color:#0056b3;
+    font-family: "Segoe print";
+}
+h3{
+    font-size: 20pt;
+    color:black;
+    font-family: "Segoe print";
+}
+h4{
+    font-size: 50pt;
+    color: blue;
+    font-family: "Segoe Script";
+    text-align: center;
+}
+
+.p {
+    font-size: 20pt;
+    color: black;
+    font-family: "MV Boli";
+    padding: 0.5pt;
+}
+
+#loginForm {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    margin: 50px auto;
+    opacity: 0.8;
+    border-color: red;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: "Segoe print";
+}
+.submit, .clickme {
+    background-color: blue;
+    color: bisque;
+    padding: 10px 15px;
+    border-style:double;
+}
+.submit:hover {
+    background-color: green;
+    color: white;
+}
+
+.home img {
+    width: auto; /* Adjust the width of the image */
+    height: 350px;
+    display: block; 
+    margin: 0 auto;
+    animation-name : slide;
+    animation-duration: 2s; /* Animation duration */
+    animation-iteration-count: 4; /* Repeat the animation indefinitely */
+    animation-direction: alternate;
+}
+ 
+.name{
+    padding-right: 45px;
+    margin: 200px;
+    font-family: "Segoe Script";
+    forced-color-adjust:green;
+}
+.text{
+        width: 1200px;
+        height: 200px;
+        padding: 10px;
+        text-align: justify;
+        line-height: 35px; /* Vertically center the text */
+        font-size: 23pt;
+        color:#555;
+        font-family: "MV Boli";
+        margin: 2px;
+
+        
+    }
+    @keyframes slide {
+        0% {
+            transform: translateX(0); /* Initial position */
+        }
+        100% {
+            transform: translateX(100px); /* Final position */
+        }
+    }
+.next {
+        text-align: center; /* Center the button horizontally */
+        display: flex;
+        justify-content: flex-end;
+        padding-bottom: 300pt;
+    }
+    
+.button {
+        display: right;
+        padding: 10px 30px; /* Adjust padding to make the button bigger */
+        background-color: #007bff; /* Button background color */
+        color: #fff; /* Text color */
+        text-decoration: none; /* Remove default underline */
+        border: 2px solid #007bff; /* Set border size and color */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Cursor style */
+        transition: background-color 0.3s; /* Smooth transition on hover */
+    }
+    
+.button:hover {
+        background-color: #0056b3; 
+    }
+.tex{
+        width: 1200px;
+        height: 200px;
+        padding: 10px;
+        text-align: justify;
+        line-height: 35px; /* Vertically center the text */
+        font-size: 20pt;
+        color:darkgreen;
+        font-family: "MV Boli";
+        margin: 2px;      
+    }
+table{
+        font-family: "MV Boli";
+        font-size: 17pt;
+    }
+.stars {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+      }
+      
+.star {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: green;
+      }
+      
+.star.filled {
+        background: white;
+      }
+.te{
+    width: 1200px;
+    height: 150px;
+    padding: 10pt;
+    text-align: justify;
+    line-height: 35px; /* Vertically center the text */
+    font-size: 20pt;
+    color:#555;
+    font-family: "MV Boli";
+    margin: 2px;      
+}
+.icon-container {
+    display: flex; /* Use flexbox */
+}
+
+.icon-container img {
+    width: 10px; /* Set the width of the icons */
+    height: 10px; /* Set the height of the icons */
+    margin-right: 10px; /* Add margin between icons */
+}
+.options{
+    font-family: "Segoe print";
+}
+.texz{
+    width: 1200px;
+    height: 200px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 35px; /* Vertically center the text */
+    font-size: 20pt;
+    color:black;
+    font-family: "MV Boli";
+    margin: 2px;      
+}
+
+
+
+
+
+
+      
+
+
